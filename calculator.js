@@ -25,16 +25,8 @@ class Calculator {
     this.number /= val;
     return this;
   }
-  square() {
-    this.number = Math.pow(this.number, 2);
-    return this;
-  }
-  squareRoot() {
-    var tmp = this.number;
-    this.number = Math.sqrt(tmp);
-    return this;
-  }
-  circle() {
+
+) {
     const pi = 3.14;
     var radius = this.number / 2;
     this.number = 2 * pi * radius;
