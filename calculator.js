@@ -21,12 +21,16 @@ class Calculator {
     this.number /= val;
     return this;
   }
-  divide(val) {
-    this.number /= val;
+  square(
+    this.number = Math.pow(this.number, 2);
     return this;
   }
-
-) {
+  squareRoot() {
+    var tmp = this.number;
+    this.number = Math.sqrt(tmp);
+    return this;
+  }
+  circle() {
     const pi = 3.14;
     var radius = this.number / 2;
     this.number = 2 * pi * radius;
@@ -58,5 +62,5 @@ console.log(
 );
 //console.log(input.circleArea());
 module.exports = {
-  Calcula
+  Calculator
 };
