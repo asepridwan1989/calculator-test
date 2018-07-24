@@ -26,7 +26,7 @@ class Calculator {
     return this;
   }
   squareRoot() {
-    var tmp = this.number;
+    var tmp = this.numbe
     this.number = Math.sqrt(tmp);
     return this;
   }
