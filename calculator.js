@@ -21,6 +21,10 @@ class Calculator {
     this.number /= val;
     return this;
   }
+  divide(val) {
+    this.number /= val;
+    return this;
+  }
   square() {
     this.number = Math.pow(this.number, 2);
     return this;
