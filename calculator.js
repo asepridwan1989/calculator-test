@@ -66,5 +66,5 @@ console.log(
 );
 //console.log(input.circleArea());
 module.exports = {
-  Calculator
+  Calcula
 };
